@@ -54,11 +54,11 @@ cd $HOME/Workplace/dotfiles
 /usr/bin/git --git-dir=$HOME/Workplace/dotfiles --work-tree=$HOME config --local status.showUntrackedFiles no
 
 # Update gnome keybings
-cat .config/keybindings/media-keys | dconf load /org/gnome/settings-daemon/plugins/media-keys/
-cat .config/keybindings/wm-keybindings | dconf load /org/gnome/desktop/wm/keybindings/
-cat .config/keybindings/shell-keybindings | dconf load /org/gnome/shell/keybindings/
-cat .config/keybindings/mutter-keybindings | dconf load /org/gnome/mutter/keybindings/
-cat .config/keybindings/wayland-keybindings | dconf load /org/gnome/mutter/wayland/keybindings/
+cat ~/.config/keybindings/media-keys | dconf load /org/gnome/settings-daemon/plugins/media-keys/
+cat ~/.config/keybindings/wm-keybindings | dconf load /org/gnome/desktop/wm/keybindings/
+cat ~/.config/keybindings/shell-keybindings | dconf load /org/gnome/shell/keybindings/
+cat ~/.config/keybindings/mutter-keybindings | dconf load /org/gnome/mutter/keybindings/
+cat ~/.config/keybindings/wayland-keybindings | dconf load /org/gnome/mutter/wayland/keybindings/
 
 # Upgrade
 sudo apt upgrade -y
