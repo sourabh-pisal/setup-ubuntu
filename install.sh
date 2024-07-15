@@ -21,7 +21,8 @@ sudo apt install -y \
 	tree\
 	gnome-tweaks\
 	gnome-shell-extension-manager\
-	zsh
+	zsh\
+ 	alacritty
 
 # Set zsh as default shell
 chsh -s $(which zsh)
