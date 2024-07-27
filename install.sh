@@ -10,12 +10,10 @@ rm -rf $HOME/.tmux/plugins/tpm
 sudo apt update
 sudo apt install -y \
 	gcc\
-	curl\
 	git\
 	unzip\
 	tmux\
 	neovim\
-	fzf\
 	ripgrep\
 	htop\
 	tree\
@@ -31,9 +29,15 @@ chsh -s $(which zsh)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
+# Install homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+# Install brew applications 
+brew install gcc fzf lazygit
+
 # Install tpm
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-
 
 # Create Workplace dir
 mkdir -p $HOME/Workplace
