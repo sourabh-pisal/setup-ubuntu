@@ -22,6 +22,7 @@ pipewire-pulse
 polkit
 prettier
 qt5-wayland
+ripgrep
 speech-dispatcher
 sudo
 sway
