@@ -1,3 +1,4 @@
+alacritty
 arch-audit
 bash-language-server
 firefox
@@ -6,7 +7,6 @@ gcc
 git
 htop
 iwd
-kitty
 lazygit
 libnotify
 lua-language-server
@@ -14,6 +14,7 @@ lvm2
 man-db
 man-pages
 neovim
+npm
 openssh
 pipewire
 pipewire-alsa
