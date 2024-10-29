@@ -5,7 +5,7 @@ Repository to setup Arch Linux with my personal configuration.
 To install the configuration run the following command:
 
 ```
-./install.sh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/sourabh-pisal/setup-arch/main/install.sh)"
 ```
 
 ## Install optional packages
