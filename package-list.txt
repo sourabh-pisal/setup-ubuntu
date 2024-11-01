@@ -23,6 +23,7 @@ pipewire-pulse
 polkit
 prettier
 qt5-wayland
+reflector
 ripgrep
 speech-dispatcher
 sudo
@@ -39,6 +40,7 @@ ufw
 vim
 vlc
 vscode-json-languageserver
+waybar
 which
 wlsunset
 wofi
