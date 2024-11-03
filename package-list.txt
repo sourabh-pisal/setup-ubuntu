@@ -35,6 +35,7 @@ swaync
 texinfo
 thunderbird
 tmux
+tree
 ttf-meslo-nerd
 ufw
 vim
