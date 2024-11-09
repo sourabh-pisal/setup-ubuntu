@@ -7,6 +7,12 @@ rm -rf $HOME/Workplace/dotfiles
 # Install required packages from package-list.txt
 sudo pacman -S --noconfirm $(cat package-list.txt)
 
+# Install omzsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+
+# Install TPM
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
 # Change dir to Workplace
 cd $HOME/Workplace
 
