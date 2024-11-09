@@ -1,7 +1,7 @@
-alacritty
 arch-audit
 bash-language-server
 firefox
+foot
 fzf
 gcc
 git
