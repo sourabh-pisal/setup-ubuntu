@@ -23,7 +23,6 @@ pipewire-pulse
 polkit
 prettier
 qt5-wayland
-reflector
 ripgrep
 speech-dispatcher
 sudo
@@ -45,6 +44,5 @@ waybar
 which
 wlsunset
 wofi
-xdg-utils
 yaml-language-server
 zsh
