@@ -13,6 +13,7 @@ lua-language-server
 lvm2
 man-db
 man-pages
+mpv
 neovim
 npm
 openssh
@@ -38,11 +39,11 @@ tree
 ttf-meslo-nerd
 ufw
 vim
-vlc
 vscode-json-languageserver
 waybar
 which
 wlsunset
 wofi
 yaml-language-server
+yt-dlp
 zsh
