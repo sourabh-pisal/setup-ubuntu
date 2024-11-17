@@ -45,6 +45,7 @@ waybar
 which
 wlsunset
 wofi
+xdg-desktop-portal-wlr
 yaml-language-server
 yt-dlp
 zsh
