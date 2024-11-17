@@ -25,6 +25,7 @@ polkit
 prettier
 qt5-wayland
 ripgrep
+sbctl
 speech-dispatcher
 sudo
 sway
