@@ -1,5 +1,7 @@
 arch-audit
 bash-language-server
+eslint
+eslint-language-server
 firefox
 foot
 fzf
@@ -37,7 +39,10 @@ texinfo
 thunderbird
 tmux
 tree
+ts-node
 ttf-meslo-nerd
+typescript
+typescript-language-server
 ufw
 vim
 vscode-json-languageserver
