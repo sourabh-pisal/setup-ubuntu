@@ -13,6 +13,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 # Install TPM
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
+# Install homebrew
+NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
 # Change dir to Workplace
 cd $HOME/Workplace
 
