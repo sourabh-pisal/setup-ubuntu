@@ -4,9 +4,6 @@ set -e
 # cleanup old dotfiles
 rm -rf $HOME/Workplace/dotfiles
 
-# Install required packages from package-list.txt
-sudo pacman -S --noconfirm $(cat package-list.txt)
-
 # Install omzsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
@@ -15,6 +12,12 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 # Install homebrew
 NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# Add homebrew to PATH of current shell
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+# Install required packages from homebrew
+brew install $(cat package-list.txt)
 
 # Change dir to Workplace
 cd $HOME/Workplace

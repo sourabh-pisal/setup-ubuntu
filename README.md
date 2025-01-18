@@ -1,4 +1,4 @@
-# setup-arch
+# setup-ubuntu
 Repository to setup Ubuntu with my personal configuration.
 
 ## Installation
