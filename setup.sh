@@ -35,5 +35,12 @@ cd $HOME/Workplace/dotfiles
 /usr/bin/git --git-dir=$HOME/Workplace/dotfiles --work-tree=$HOME switch -f mainline
 /usr/bin/git --git-dir=$HOME/Workplace/dotfiles --work-tree=$HOME config --local status.showUntrackedFiles no
 
+# Turn off gnome dash to dock
+gsettings set org.gnome.shell.extensions.dash-to-dock hot-keys false
+for i in {1..9}; do gsettings set org.gnome.shell.keybindings switch-to-application-$i "[]";done
+
+# Add keybinding to switch workspaces with super + number
+for i in {1..9}; do gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-$i "['<Super>$i']";done
+
 # Set zsh as default shell
 chsh -s $(which zsh)
