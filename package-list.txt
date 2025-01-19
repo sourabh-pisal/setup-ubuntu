@@ -1,3 +1,4 @@
+awscli
 btop
 fzf
 gcc
