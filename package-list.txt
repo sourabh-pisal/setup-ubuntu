@@ -5,4 +5,6 @@ gcc
 lazygit
 neovim
 node
+ripgrep
 tmux
+yarn
