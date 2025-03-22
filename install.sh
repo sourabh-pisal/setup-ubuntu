@@ -5,7 +5,7 @@ set -e
 sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y 
 
 # Install git
-sudo apt install build-essential procps curl file git -y
+sudo apt install build-essential procps curl file git zsh -y
 
 # Create Workplace dir
 mkdir -p $HOME/Workplace
