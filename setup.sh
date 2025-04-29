@@ -17,7 +17,8 @@ NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Ho
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 # Install required packages from homebrew
-brew install $(cat package-list.txt)
+brew install $(cat brew-package-list.txt)
+brew install --cask $(cat brew-cask-package-list.txt)
 
 # Change dir to Workplace
 cd $HOME/Workplace
