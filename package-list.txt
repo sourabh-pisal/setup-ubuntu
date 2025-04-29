@@ -1,10 +1,7 @@
-awscli
 btop
 fzf
 gcc
 lazygit
 neovim
-node
 ripgrep
 tmux
-yarn
