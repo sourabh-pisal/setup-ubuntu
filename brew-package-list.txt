@@ -1,7 +1,10 @@
+bash-language-server
 btop
 fzf
 gcc
 lazygit
+lua-language-server
 neovim
 ripgrep
+stylua
 tmux
