@@ -1,3 +1,4 @@
+awscli
 bash-language-server
 btop
 fzf
@@ -5,6 +6,10 @@ gcc
 lazygit
 lua-language-server
 neovim
+prettier
 ripgrep
 stylua
 tmux
+typescript-language-server
+vscode-langservers-extracted
+yaml-language-server
